@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de contactos</title>
+</head>
+<body>
+    <h1>Pagina de contactos</h1>
+    <a href="index.html">Página principal</a><br><br>
+ <img src="img/medac.jpg" alt="Imagen de Vandelvira" height="250" width="300">
+
+<form action="datos.php" method="post">
+    <fieldset>
+        <legend> Formulario para datos personales</legend>
+<label for="Nombre">Nombre</label><br>
+<input type="text" id="Nombre" name="nombre" placeholder="Escriba su nombre"><br>
+<label for="apellido">Apellido</label><br>
+<input  type="text" id="apellido" name="apellido" placeholder="Escriba su apellido"><br>
+<label for="edad">Edad</label><br>
+<input  type="number" id="edad" name="edad" placeholder="Escriba su edad"><br>
+<label for="clave">Contraseña</label><br>
+<input type="password" id="clave" name="clave" placeholder="Escriba su contraseña">
+<br><br>
+
+    </fieldset>
+
+<fieldset>
+    <legend> Lista desplegable </legend>
+<select name="lista">
+<option value=" "</option>
+<option value="modulo1">Sistemas operativos en red</option>
+<option value="modulo2">SO en red</option>
+<option value="modulo3">Fund. programacion</option>
+</fieldset>
+</select name="lista"> 
+</fieldset>
+<fieldset>
+<legend>Listado de la compra</legend>
+<input type="checkbox" id="elemento1" name="elemento1" value="Leche">
+<label for="elemento1">Caja de leche</label>
+<input type="checkbox" id="elemento2" name="elemento2" value="Huevos">
+<label for="elemento2">Huevos</label>
+<input type="checkbox" id="elemento3" name="elemento3" value="Pan">
+<label for="elemento3">Pan</label>checked="True"
+</fieldset>
+<br>
+
+<fieldset><label for="Comentario">Comentarios:</label> <br>
+<textarea name="comentario" id="comentario"rows="10" cols="40"></textarea><br>
+
+<button type="submit"> Enviar </button>
+<button type="reset"> Borrar </button>
+
+</fieldset>
+</form>
+
+
+
+
+
+</body>
+</html>
