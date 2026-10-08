@@ -10,9 +10,6 @@ body {
     background-image: url("../img/medacc.jpg");
     
 
-
-
-
 }
 
 
@@ -21,13 +18,11 @@ h1 {
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-style: wavy;
-
+    text-align: center;
 }
 
 h2 {
     color: teal;
-
-
 
 }
 
@@ -36,9 +31,56 @@ a {
     text-decoration: unset;
 }
 
-#titulo{
+#titulo {
 
     color: gray;
     text-align: center;
     font-style: italic ;
+
+}
+
+.favorito {
+
+    color: red;
+    font-weight: bold;
+
+
+}
+
+.listA{
+
+    color: aliceblue;
+    background-color: green;
+    margin: 10  px;
+    
+}
+
+.listaB{
+
+    color: black;
+    background-color: orange;
+    margin: 10px;
+    
+}
+
+.curso{
+
+    border: 2px solid teal;
+    border-radius: 10px;
+    margin: 20px;
+   
+
+}
+
+a:link{
+
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: black;
 }
