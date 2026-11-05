@@ -27,4 +27,7 @@ function agregar() {
 
     //Vacía el cuadro de texto para que se pueda escribir otra cosa
     caja.value = " ";
+    
+    
+
 }
